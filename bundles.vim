@@ -25,6 +25,9 @@ Bundle 'tomtom/tlib_vim'
 " xptemplate
 Bundle 'vim-scripts/xptemplate'
 
+" fcitx
+Bundle 'vim-scripts/fcitx.vim'
+
 "-----------------
 " Fast navigation
 "-----------------
