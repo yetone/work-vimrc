@@ -13,6 +13,7 @@ syntax on
 " Vim UI
 "--------
 " color scheme
+"colorscheme solarized
 set background=dark
 color vividchalk
 
@@ -267,3 +268,9 @@ if has("gui_running")
     map <D-0> :tablast<CR>
 endif
 set foldmethod=indent
+
+" list
+set list
+set listchars=tab:›\ ,trail:·,extends:#,nbsp:.
+
+" vim indent guide
