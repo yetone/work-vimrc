@@ -274,3 +274,4 @@ set list
 set listchars=tab:›\ ,trail:·,extends:#,nbsp:.
 
 " vim indent guide
+set hlsearch
