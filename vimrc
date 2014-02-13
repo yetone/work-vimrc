@@ -275,4 +275,4 @@ set listchars=tab:›\ ,trail:·,extends:#,nbsp:.
 
 " vim indent guide
 set hlsearch
-highlight Search ctermbg=Blue ctermfg=Gray
+hi Search ctermbg=Blue ctermfg=Gray
