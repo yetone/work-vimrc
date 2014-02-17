@@ -57,6 +57,9 @@ Bundle 'scrooloose/syntastic'
 Bundle 'bronson/vim-trailing-whitespace'
 " Bundle 'Valloric/YouCompleteMe'
 Bundle 'dyng/ctrlsf.vim'
+Bundle 'davidhalter/jedi-vim'
+Bundle 'dgryski/vim-godef'
+Bundle 'Blackrush/vim-gocode'
 
 "-------------
 " Other Utils
