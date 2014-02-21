@@ -98,6 +98,9 @@ Bundle 'tpope/vim-endwise'
 "------- Go ----------
 Bundle 'jnwhiteh/vim-golang'
 
+"------- Jade --------
+Bundle 'digitaltoad/vim-jade'
+
 "------- FPs ------
 Bundle 'kien/rainbow_parentheses.vim'
 " Bundle 'wlangstroth/vim-racket'
