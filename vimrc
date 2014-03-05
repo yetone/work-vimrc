@@ -276,3 +276,4 @@ set listchars=tab:›\ ,trail:·,extends:#,nbsp:.
 " vim indent guide
 set hlsearch
 hi Search ctermbg=Blue ctermfg=Gray
+au BufNewFile,BufRead *.ejs set filetype=html
