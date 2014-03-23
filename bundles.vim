@@ -87,6 +87,8 @@ Bundle 'nono/jquery.vim'
 " Bundle 'nono/vim-handlebars'
 "------- JSHint -------
 Bundle 'Shutnik/jshint2.vim'
+Bundle 'maksimr/vim-jsbeautify'
+Bundle 'einars/js-beautify'
 
 "------- markup language -------
 Bundle 'tpope/vim-markdown'

@@ -277,3 +277,11 @@ set listchars=tab:›\ ,trail:·,extends:#,nbsp:.
 set hlsearch
 hi Search ctermbg=Blue ctermfg=Gray
 au BufNewFile,BufRead *.ejs set filetype=html
+
+map <c-f> :call JsBeautify()<cr>
+" or
+autocmd FileType javascript noremap <buffer>  <c-f> :call JsBeautify()<cr>
+" for html
+autocmd FileType html noremap <buffer> <c-f> :call HtmlBeautify()<cr>
+" for css or scss
+autocmd FileType css noremap <buffer> <c-f> :call CSSBeautify()<cr>
