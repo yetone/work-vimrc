@@ -43,6 +43,7 @@ Bundle 'sjl/gundo.vim'
 Bundle 'godlygeek/tabular'
 Bundle 'nathanaelkane/vim-indent-guides'
 Bundle 'bkad/CamelCaseMotion'
+Bundle 'vim-scripts/argtextobj.vim'
 
 "--------------
 " IDE features
