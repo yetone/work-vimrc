@@ -42,6 +42,7 @@ Bundle 'scrooloose/nerdcommenter'
 Bundle 'sjl/gundo.vim'
 Bundle 'godlygeek/tabular'
 Bundle 'nathanaelkane/vim-indent-guides'
+Bundle 'bkad/CamelCaseMotion'
 
 "--------------
 " IDE features
@@ -55,11 +56,16 @@ Bundle 'tpope/vim-fugitive'
 Bundle 'Lokaltog/vim-powerline'
 Bundle 'scrooloose/syntastic'
 Bundle 'bronson/vim-trailing-whitespace'
+Bundle 'terryma/vim-multiple-cursors'
+" Bundle 'wincent/Command-T'
 " Bundle 'Valloric/YouCompleteMe'
 Bundle 'dyng/ctrlsf.vim'
 " Bundle 'davidhalter/jedi-vim'
 Bundle 'dgryski/vim-godef'
 Bundle 'Blackrush/vim-gocode'
+
+" space
+Bundle 'spiiph/vim-space'
 
 "-------------
 " Other Utils
@@ -78,6 +84,7 @@ Bundle 'lepture/vim-jinja'
 
 "------- web frontend ----------
 Bundle 'othree/html5.vim'
+Bundle 'mattn/emmet-vim'
 " Bundle 'tpope/vim-haml'
 Bundle 'pangloss/vim-javascript'
 Bundle 'kchmck/vim-coffee-script'

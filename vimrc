@@ -199,10 +199,10 @@ let g:ctrlp_custom_ignore = '\.git$\|\.hg$\|\.svn$'
 " Keybindings for plugin toggle
 nnoremap <F2> :set invpaste paste?<CR>
 set pastetoggle=<F2>
-nmap <F5> :TagbarToggle<cr>
-nmap <F6> :NERDTreeToggle<cr>
 nmap <F3> :GundoToggle<cr>
 nmap <F4> :IndentGuidesToggle<cr>
+nmap <F5> :TagbarToggle<cr>
+nmap <F6> :NERDTreeToggle<cr>
 nmap  <D-/> :
 nnoremap <leader>a :Ack
 nnoremap <leader>v V`]
@@ -285,3 +285,9 @@ autocmd FileType javascript noremap <buffer>  <c-f> :call JsBeautify()<cr>
 autocmd FileType html noremap <buffer> <c-f> :call HtmlBeautify()<cr>
 " for css or scss
 autocmd FileType css noremap <buffer> <c-f> :call CSSBeautify()<cr>
+
+try
+    set undodir=~/.vim/temp_dirs/undodir
+    set undofile
+catch
+endtry
