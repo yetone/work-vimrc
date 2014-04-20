@@ -44,6 +44,7 @@ Bundle 'godlygeek/tabular'
 Bundle 'nathanaelkane/vim-indent-guides'
 Bundle 'bkad/CamelCaseMotion'
 Bundle 'vim-scripts/argtextobj.vim'
+Bundle 'Shougo/wildfire.vim'
 
 "--------------
 " IDE features
