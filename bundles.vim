@@ -49,7 +49,9 @@ Bundle 'Shougo/wildfire.vim'
 "--------------
 " IDE features
 "--------------
+Bundle 'airblade/vim-gitgutter'
 Bundle 'scrooloose/nerdtree'
+Bundle 'jistr/vim-nerdtree-tabs'
 Bundle 'humiaozuzu/TabBar'
 Bundle 'majutsushi/tagbar'
 Bundle 'mileszs/ack.vim'
