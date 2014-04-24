@@ -76,6 +76,7 @@ Bundle 'spiiph/vim-space'
 "-------------
 " Bundle 'humiaozuzu/fcitx-status'
 Bundle 'nvie/vim-togglemouse'
+Bundle 'vim-scripts/vimwiki'
 
 "----------------------------------------
 " Syntax/Indent for language enhancement
@@ -110,6 +111,9 @@ Bundle 'tpope/vim-endwise'
 
 "------- Go ----------
 Bundle 'jnwhiteh/vim-golang'
+
+"------- LiveScript --------
+Bundle 'gkz/vim-ls'
 
 "------- Jade --------
 Bundle 'digitaltoad/vim-jade'
