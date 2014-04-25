@@ -204,6 +204,7 @@ nmap <F4> :IndentGuidesToggle<cr>
 nmap <F5> :TagbarToggle<cr>
 "nmap <F6> :NERDTreeToggle<cr>
 nmap <F6> :NERDTreeTabsToggle<cr>
+nmap <F7> :VimwikiAll2HTML<cr>
 nmap  <D-/> :
 nnoremap <leader>a :Ack
 nnoremap <leader>v V`]
@@ -304,3 +305,6 @@ let g:wildfire_objects = {
     \ "*" : ["i'", 'i"', "i)", "i]", "i}", "ip"],
     \ "html,xml" : ["at"],
 \ }
+
+" vim wiki
+let g:vimwiki_list = [{'path': '~/wiki/wiki/', 'path_html': '~/wiki/html/'}]
