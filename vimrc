@@ -206,7 +206,9 @@ nmap <F5> :TagbarToggle<cr>
 nmap <F6> :NERDTreeTabsToggle<cr>
 nmap <F7> :VimwikiAll2HTML<cr>
 nmap  <D-/> :
-nnoremap <leader>a :Ack
+nnoremap <leader>a :Ack 
+nnoremap <leader>sf :CtrlSF 
+nnoremap <leader>sfo :CtrlSFOpen<cr>
 nnoremap <leader>v V`]
 
 "------------------
@@ -308,3 +310,5 @@ let g:wildfire_objects = {
 
 " vim wiki
 let g:vimwiki_list = [{'path': '~/wiki/wiki/', 'path_html': '~/wiki/html/'}]
+
+set shell=bash
