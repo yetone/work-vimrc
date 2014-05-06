@@ -67,6 +67,9 @@ Bundle 'dyng/ctrlsf.vim'
 " Bundle 'davidhalter/jedi-vim'
 Bundle 'dgryski/vim-godef'
 Bundle 'Blackrush/vim-gocode'
+Bundle 'gg/python.vim'
+Bundle 'pep8'
+" Bundle 'nvie/vim-flake8'
 
 " space
 Bundle 'spiiph/vim-space'
