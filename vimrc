@@ -312,4 +312,8 @@ let g:wildfire_objects = {
 " vim wiki
 let g:vimwiki_list = [{'path': '~/wiki/wiki/', 'path_html': '~/wiki/html/'}]
 
+" YCM
+let g:ycm_autoclose_preview_window_after_completion=1
+nnoremap <leader>g :YcmCompleter GoToDefinitionElseDeclaration<CR>
+
 set shell=bash
