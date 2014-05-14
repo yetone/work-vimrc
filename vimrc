@@ -210,7 +210,7 @@ nnoremap <leader>a :Ack
 nnoremap <leader>sf :CtrlSF 
 nnoremap <leader>sfo :CtrlSFOpen<cr>
 nnoremap <leader>v V`]
-let g:pep8_map = '<F8>'
+let g:pep8_map = '<leader>8'
 
 "------------------
 " Useful Functions
