@@ -130,6 +130,9 @@ Bundle 'kien/rainbow_parentheses.vim'
 "------- Smarty ------
 " Bundle 'vim-scripts/smarty.vim'
 
+" ------ Nginx ------
+Bundle 'nginx.vim'
+
 "--------------
 " Color Schemes
 "--------------
