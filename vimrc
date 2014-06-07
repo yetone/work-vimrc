@@ -14,8 +14,9 @@ syntax on
 "--------
 " color scheme
 "colorscheme solarized
-set background=dark
-color vividchalk
+"set background=dark
+let g:hybrid_use_Xresources = 1
+colorscheme hybrid
 
 " highlight current line
 au WinLeave * set nocursorline nocursorcolumn

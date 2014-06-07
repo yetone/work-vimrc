@@ -144,5 +144,9 @@ Bundle 'tpope/vim-vividchalk'
 Bundle 'Lokaltog/vim-distinguished'
 Bundle 'chriskempson/vim-tomorrow-theme'
 Bundle 'fisadev/fisa-vim-colorscheme'
+Bundle 'flazz/vim-colorschemes'
+Bundle 'endel/vim-github-colorscheme'
+Bundle 'junegunn/seoul256.vim'
+Bundle 'w0ng/vim-hybrid'
 
 filetype plugin indent on     " required!
