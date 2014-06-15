@@ -112,6 +112,7 @@ Bundle 'tpope/vim-markdown'
 
 "------- Ruby --------
 Bundle 'tpope/vim-endwise'
+Bundle 'hallison/vim-ruby-sinatra'
 
 "------- Go ----------
 Bundle 'jnwhiteh/vim-golang'
