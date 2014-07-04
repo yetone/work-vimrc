@@ -14,9 +14,9 @@ syntax on
 "--------
 " color scheme
 "colorscheme solarized
-"set background=dark
-let g:hybrid_use_Xresources = 1
-colorscheme hybrid
+set background=dark
+"let g:hybrid_use_Xresources = 1
+colorscheme candy
 
 " highlight current line
 au WinLeave * set nocursorline nocursorcolumn
@@ -318,3 +318,4 @@ let g:ycm_autoclose_preview_window_after_completion=1
 nnoremap gd :YcmCompleter GoToDefinitionElseDeclaration<CR>
 
 set shell=bash
+hi Pmenu ctermfg=white ctermbg=238

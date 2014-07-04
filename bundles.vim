@@ -69,8 +69,8 @@ Bundle 'dgryski/vim-godef'
 Bundle 'Blackrush/vim-gocode'
 Bundle 'gg/python.vim'
 " Bundle 'klen/python-mode'
-Bundle 'pep8'
-" Bundle 'nvie/vim-flake8'
+" Bundle 'pep8'
+Bundle 'nvie/vim-flake8'
 
 " space
 Bundle 'spiiph/vim-space'
