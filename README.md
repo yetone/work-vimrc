@@ -118,7 +118,7 @@ CPP          | g++           | built-in
 CoffeeScript | coffee        | `npm install -g coffeelint`
 CSS          | csslint       | `npm install -g csslint`
 Erlang       | escript       | built-in
-Go           | go            | built-in
+Go           | go            | `go get code.google.com/p/rog-go/exp/cmd/godef`
 Haml         | haml          | built-in
 Haskell      | ghc-mod       | `cabal install ghc-mod`
 HTML         | tidy          | built-in
