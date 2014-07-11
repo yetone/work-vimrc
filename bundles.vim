@@ -120,6 +120,9 @@ Bundle 'jnwhiteh/vim-golang'
 "------- LiveScript --------
 Bundle 'gkz/vim-ls'
 
+"------- Io ----------
+Bundle 'andreimaxim/vim-io'
+
 "------- Jade --------
 Bundle 'digitaltoad/vim-jade'
 
