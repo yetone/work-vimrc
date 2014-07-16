@@ -12,7 +12,6 @@ Bundle 'gmarik/vundle'
 " Code Completions
 "------------------
 " Bundle 'Shougo/neocomplcache'
-Bundle 'mattn/emmet-vim'
 Bundle 'Raimondi/delimitMate'
 Bundle 'ervandew/supertab'
 " snippets
@@ -31,7 +30,7 @@ Bundle 'vim-scripts/fcitx.vim'
 "-----------------
 " Fast navigation
 "-----------------
-Bundle 'tsaleh/vim-matchit'
+Bundle 'vim-scripts/matchit.zip'
 Bundle 'Lokaltog/vim-easymotion'
 
 "--------------

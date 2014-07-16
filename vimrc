@@ -344,6 +344,8 @@ let g:vimwiki_list = [{'path': '~/wiki/wiki/', 'path_html': '~/wiki/html/'}]
 " YCM
 let g:ycm_autoclose_preview_window_after_completion=1
 nnoremap gd :YcmCompleter GoToDefinitionElseDeclaration<CR>
+let g:ycm_server_use_vim_stdout = 1
+let g:ycm_server_log_level = 'debug'
 
 set shell=bash
 hi Pmenu ctermfg=white ctermbg=238
