@@ -122,6 +122,12 @@ Bundle 'gkz/vim-ls'
 "------- Io ----------
 Bundle 'andreimaxim/vim-io'
 
+"------- Erlang -------
+Bundle 'jimenezrick/vimerl'
+
+"------- Elixir -------
+Bundle 'elixir-lang/vim-elixir'
+
 "------- Jade --------
 Bundle 'digitaltoad/vim-jade'
 
