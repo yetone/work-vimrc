@@ -114,7 +114,7 @@ Bundle 'tpope/vim-endwise'
 Bundle 'hallison/vim-ruby-sinatra'
 
 "------- Go ----------
-Bundle 'jnwhiteh/vim-golang'
+Bundle 'fatih/vim-go'
 
 "------- LiveScript --------
 Bundle 'gkz/vim-ls'

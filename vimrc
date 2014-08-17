@@ -352,3 +352,7 @@ hi Pmenu ctermfg=white ctermbg=238
 
 " godef
 let g:godef_split=3
+
+" go
+let g:go_fmt_command = "gofmt"
+au BufNewFile,BufRead *.go setlocal noet ts=4 sw=4 sts=4
