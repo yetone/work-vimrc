@@ -48,6 +48,7 @@ Bundle 'gcmt/wildfire.vim'
 "--------------
 " IDE features
 "--------------
+Bundle 'marijnh/tern_for_vim'
 Bundle 'airblade/vim-gitgutter'
 Bundle 'scrooloose/nerdtree'
 Bundle 'jistr/vim-nerdtree-tabs'
