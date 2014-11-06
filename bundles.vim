@@ -130,6 +130,9 @@ Bundle 'jimenezrick/vimerl'
 "------- Elixir -------
 Bundle 'elixir-lang/vim-elixir'
 
+"------- Rust -------
+Bundle 'wting/rust.vim'
+
 "------- Jade --------
 Bundle 'digitaltoad/vim-jade'
 
