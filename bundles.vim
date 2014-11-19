@@ -136,6 +136,12 @@ Bundle 'wting/rust.vim'
 "------- Jade --------
 Bundle 'digitaltoad/vim-jade'
 
+"------- Haskell -------
+Bundle 'lukerandall/haskellmode-vim'
+
+"------- Elm -------
+Bundle 'lambdatoast/elm.vim'
+
 "------- FPs ------
 Bundle 'kien/rainbow_parentheses.vim'
 " Bundle 'wlangstroth/vim-racket'
