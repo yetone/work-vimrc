@@ -15,8 +15,10 @@ syntax on
 " color scheme
 "colorscheme solarized
 set background=dark
+let g:solarized_termcolors = 256
+colorscheme solarized
 "let g:hybrid_use_Xresources = 1
-colorscheme candy
+"colorscheme candy
 
 " highlight current line
 au WinLeave * set nocursorline nocursorcolumn
