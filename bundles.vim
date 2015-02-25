@@ -36,6 +36,7 @@ Bundle 'Lokaltog/vim-easymotion'
 "--------------
 " Fast editing
 "--------------
+Bundle 'tpope/vim-repeat'
 Bundle 'tpope/vim-surround'
 Bundle 'scrooloose/nerdcommenter'
 Bundle 'sjl/gundo.vim'
