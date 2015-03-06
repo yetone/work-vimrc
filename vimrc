@@ -372,3 +372,15 @@ au FileType go nmap <Leader>dt <Plug>(go-def-tab)
 " haskell
 let g:haddock_browser = "google-chrome-stable"
 let g:haddock_docdir = "."
+
+fun! JumpToDef()
+  if exists("*GotoDefinition_" . &filetype)
+    call GotoDefinition_{&filetype}()
+  else
+    exe "norm! \<C-]>"
+  endif
+endf
+
+" Jump to tag
+nn <M-g> :call JumpToDef()<cr>
+ino <M-g> <esc>:call JumpToDef()<cr>i
