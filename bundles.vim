@@ -143,6 +143,9 @@ Bundle 'lukerandall/haskellmode-vim'
 "------- Elm -------
 Bundle 'lambdatoast/elm.vim'
 
+"------- Nim -------
+Bundle 'zah/nimrod.vim'
+
 "------- FPs ------
 Bundle 'kien/rainbow_parentheses.vim'
 " Bundle 'wlangstroth/vim-racket'
