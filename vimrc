@@ -384,3 +384,14 @@ endf
 " Jump to tag
 nn <M-g> :call JumpToDef()<cr>
 ino <M-g> <esc>:call JumpToDef()<cr>i
+
+set clipboard=unnamed
+
+set hidden
+let g:racer_cmd = "/Users/yetone/workspace/repo/racer/target/release/racer"
+let $RUST_SRC_PATH="/Users/yetone/workspace/repo/rust/src/"
+
+let g:session_autosave = 'yes'
+let g:session_autoload = 'yes'
+let g:ycm_server_keep_logfiles = 1
+let g:ycm_server_log_level = 'debug'

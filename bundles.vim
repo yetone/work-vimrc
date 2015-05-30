@@ -72,6 +72,8 @@ Bundle 'gg/python.vim'
 " Bundle 'klen/python-mode'
 " Bundle 'pep8'
 Bundle 'nvie/vim-flake8'
+Bundle 'xolox/vim-misc'
+Bundle 'xolox/vim-session'
 
 " space
 Bundle 'spiiph/vim-space'
@@ -132,7 +134,8 @@ Bundle 'jimenezrick/vimerl'
 Bundle 'elixir-lang/vim-elixir'
 
 "------- Rust -------
-Bundle 'wting/rust.vim'
+Bundle 'rust-lang/rust.vim'
+Bundle 'phildawes/racer'
 
 "------- Jade --------
 Bundle 'digitaltoad/vim-jade'
