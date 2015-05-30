@@ -72,8 +72,8 @@ Bundle 'gg/python.vim'
 " Bundle 'klen/python-mode'
 " Bundle 'pep8'
 Bundle 'nvie/vim-flake8'
-Bundle 'xolox/vim-misc'
-Bundle 'xolox/vim-session'
+" Bundle 'xolox/vim-misc'
+" Bundle 'xolox/vim-session'
 
 " space
 Bundle 'spiiph/vim-space'
