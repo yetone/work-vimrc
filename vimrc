@@ -395,3 +395,5 @@ let g:session_autosave = 'yes'
 let g:session_autoload = 'yes'
 let g:ycm_server_keep_logfiles = 1
 let g:ycm_server_log_level = 'debug'
+
+let g:indentLine_color_term = 239

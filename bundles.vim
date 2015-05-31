@@ -74,6 +74,7 @@ Bundle 'gg/python.vim'
 Bundle 'nvie/vim-flake8'
 " Bundle 'xolox/vim-misc'
 " Bundle 'xolox/vim-session'
+Bundle 'Yggdroot/indentLine'
 
 " space
 Bundle 'spiiph/vim-space'
