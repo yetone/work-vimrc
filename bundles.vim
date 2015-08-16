@@ -177,4 +177,6 @@ Bundle 'endel/vim-github-colorscheme'
 Bundle 'junegunn/seoul256.vim'
 Bundle 'w0ng/vim-hybrid'
 
+Bundle 'tmux-plugins/vim-tmux'
+
 filetype plugin indent on     " required!
