@@ -395,3 +395,5 @@ let g:ycm_server_keep_logfiles = 1
 let g:ycm_server_log_level = 'debug'
 
 let g:indentLine_color_term = 239
+
+autocmd filetype crontab setlocal nobackup nowritebackup
