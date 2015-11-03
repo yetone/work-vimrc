@@ -152,6 +152,7 @@ Bundle 'zah/nimrod.vim'
 
 "------- FPs ------
 Bundle 'kien/rainbow_parentheses.vim'
+Bundle 'derekwyatt/vim-scala'
 " Bundle 'wlangstroth/vim-racket'
 " Bundle 'vim-scripts/VimClojure'
 " Bundle 'rosstimson/scala-vim-support'
