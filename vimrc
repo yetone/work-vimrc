@@ -57,7 +57,7 @@ set smartindent     " indent when
 set tabstop=4       " tab width
 set softtabstop=4   " backspace
 set shiftwidth=4    " indent width
-" set textwidth=79
+set textwidth=79
 " set smarttab
 set expandtab       " expand tab to space
 
@@ -397,3 +397,6 @@ let g:ycm_server_log_level = 'debug'
 let g:indentLine_color_term = 239
 
 autocmd filetype crontab setlocal nobackup nowritebackup
+
+autocmd filetype python let &colorcolumn=join(range(81,999),",")
+autocmd filetype python let &colorcolumn="80,".join(range(400,999),",")
