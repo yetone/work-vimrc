@@ -57,7 +57,7 @@ set smartindent     " indent when
 set tabstop=4       " tab width
 set softtabstop=4   " backspace
 set shiftwidth=4    " indent width
-set textwidth=79
+" set textwidth=79
 " set smarttab
 set expandtab       " expand tab to space
 
